@@ -1,0 +1,153 @@
+.am-modal-button-group-h .am-modal-button{
+		color:#108ee9;
+		font-size: 15px;
+	}
+
+#cart{
+	margin-bottom:1.2rem;
+	
+	.loading{
+		width:100px;
+		margin: 200px auto;
+	}
+	.cart_header{
+		width:100%;
+		position:fixed;
+		left:0;
+		top:0;
+		border-top:2px solid #eee;
+		display: flex;
+		background: rgb(248,248,248);
+		padding:0 10px;
+		box-sizing:border-box;
+		line-height: 40px;
+		>div{
+			width: 80%;
+			text-align: center;
+			font-size: 18px;
+		}
+		span{
+			display:block;
+			width:10%;
+		}
+	}
+	.cartcontent{
+		padding-top:43px;
+	}
+	.empty{
+		margin-top: 200px;
+		text-align: center;
+		p:nth-child(1){
+			margin:10px 0;
+		}
+		p:nth-child(2){
+			color:#999;
+			font-size: 12px;
+			margin:10px 0;
+		}
+		a{
+			display:inline-block;
+			line-height: 30px;
+			width:2rem;
+			border:1px solid #999;
+			border-radius:5px;
+			font-size: 14px;
+			color:#555;
+		}
+	}
+	.store{
+		background:#fff;
+		margin-bottom: 10px;
+		.store_name{
+			line-height: 20px;
+			padding:10px;
+			border-bottom:1px solid #eee;
+		}
+		.goodsitem{
+			padding:10px 0;
+			margin-left: 10px;
+			border-bottom:1px solid #eee;
+		}
+		.pro_img{
+			width:1.2rem;
+			height:1.2rem;
+			padding:5px;
+			border:1px solid #eee
+		}
+		.pro_info{
+			width:70%;
+			padding-left:10px;
+		}
+		.pro_info_bot{
+			width:100%;
+		}
+		.changenum{
+
+			border:1px solid #eee;
+			line-height: 30px;
+			>div{
+				border:0;
+				width:30px;
+				height:30px;
+				text-align:center;
+				line-height: 30px;
+			}
+			span{
+				display:inline-block;
+				height:30px;
+				width:30px;
+				text-align:center;
+				color:#888;
+			}
+			.inpadd{
+				border-left:1px solid #eee
+			}
+			.inpjian{
+				border-right:1px solid #eee
+			}
+		}
+		.goods_name{
+			width:80%;
+			color:#111;
+			font-size: 13px;
+			line-height: 16px;
+		}
+		.delete{
+			color:#888;
+			font-size: 10px;
+		}
+		.pro_info_bot{
+			margin-top:10px;
+		}
+		.pro_price{
+			color:#DB4453;
+			font-size: 14px;
+		}
+	}
+
+
+	.heji{
+		.right{
+			display:flex;
+			.totalprice{
+				font-size: 14px;
+				color:#111;
+				line-height:40px;
+				span{
+					font-size: 18px;
+					color:#DB4453;
+				}
+			}
+			.queren{
+				height:40px;
+				width:100px;
+				color:#fff;
+				font-size: 16px;
+				line-height:40px;
+				text-align:center;
+				background:#DB4453
+			}
+		}
+		
+	}
+}

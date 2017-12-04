@@ -1,0 +1,55 @@
+#login{
+	.loginheader{
+		padding: 10px;
+		border-bottom: 1px solid #eee;
+		i,span{
+			display: inline-block;
+			
+		}
+		span{
+			text-align: center;
+			font-size: 18px;
+			width:80%;
+		}
+		i{
+			width:10%;
+			font-style: normal;
+
+		}
+		.register{
+			color:#ED5564
+		}
+	}
+	form>div{
+		background: #fff;
+		div{
+			margin-left: 10px;
+			font-size: 14px;
+		}
+		div:last-child{
+			border-top:1px solid #eee;
+
+		}
+		input{
+			padding:11px 0;
+			border:0;
+			width:80%;
+		}
+	}
+	label{
+		
+		letter-spacing: 10px
+	}
+	button{
+		width:90%;
+		display:block;
+		margin:30px auto;
+		border:0;
+		line-height:0.8rem;
+		background:#ED5564;
+		color:#fff
+	}
+	.iconfont{
+		font-size: 23px
+	}
+}

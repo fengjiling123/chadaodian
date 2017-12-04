@@ -1,0 +1,153 @@
+#search{
+	padding-bottom:1.2rem;
+	.loading{
+		width:100px;
+		margin: 200px auto;
+	}
+	.loadingmore{
+		width:100px;
+		margin:3px auto;
+	}
+	*{
+		margin: 0;
+		padding:0
+	}
+	.left{
+		float:left;
+	}
+	.right{
+		float:right
+	}
+	.clear:after{
+		content:'';
+		display:block;
+		height:0;
+		visibility: hidden;
+		clear:both;
+	}
+	li{
+		list-style:none;
+	}
+	.content{
+		padding-top:42px;
+	}
+	.searchheader{
+		width:100%;
+		box-sizing:border-box;
+		background:#f5f5f9;
+		z-index: 2;
+		position: fixed;
+		left:0;
+		top:0;
+		display:flex;
+		padding:5px 10px;
+		border-bottom: 1px solid #eee;
+
+		.inp{
+			background:#fff;
+			border:1px solid #dedede;
+			border-radius:5px;
+			width: 80%;
+			i{
+				margin: 5px;
+			}
+			input{
+				border:0;
+				line-height: 30px;
+				width:90%;
+				background: 0;
+				font-size: 14px;
+			}
+		}
+		.goback{
+			display:block;
+			width:10%;
+			line-height: 30px;
+			text-align: center;
+			i{
+				font-size: 20px;
+			}
+		}
+		.sousuo{
+			width:10%;
+			line-height: 30px;
+			text-align: center;
+			font-size: 14px;
+		}
+	}
+	.searchtype{
+		background:#fff;
+		font-size: 14px;
+		color: #ccc;
+		line-height:1rem;
+		ul{
+			display:flex;
+			li{
+				width:33.3%;
+				text-align: center;
+			}
+			.active{
+				color:#ED5564
+			}
+		}
+		
+	}
+	.key_search{
+		padding:10px;
+		padding-top:1rem;
+		p{
+			padding:10px 0;
+			color:#444;
+		}
+		span{
+			display:inline-block;
+			line-height: 30px;
+			width:1.5rem;
+			background:#fff;
+			font-size: 14px;
+			color:#555;
+			text-align:center;
+			margin:5px;
+			border-radius:5px;
+		}
+	}
+	.img{
+		width:2rem;
+		height:2rem;
+		img{
+			width:100%;
+		}
+	}
+	.info{
+		p{
+			width:100%;
+			margin: 5px 0;
+
+		}
+		margin-left:0.2rem;
+		width:68%;
+		.goods_name{
+			font-size: 14px;
+			color:#555
+		}
+		.goods_price{
+			font-size: 18px;
+			color:#EC5464
+		}
+		.goods_salenum{
+			font-size: 12px;
+			color:#000;
+			margin-top: 10px;
+		}
+	}
+	.info_box{
+		padding:5px;
+		background:#fff;
+		border-bottom:1px solid #eee
+	}
+	.noinfo{
+		text-align: center;
+		margin-top: 200px
+	}
+
+}

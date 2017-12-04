@@ -1,0 +1,232 @@
+#product_detail{
+	
+	.left{
+		float: left
+	}
+	.right{
+		float:right
+	}
+	.clear:after{
+		content: "";
+		display: block;
+		height: 0;
+		visibility: hidden;
+		clear: both;
+	}
+	.my-carousel{
+		background:#fff;
+		img{
+			width:7.5rem;
+		}
+
+	}
+	.loading{
+		width:100px;
+		margin: 200px auto;
+	}
+	.goods-detail{
+		>div{
+			padding: 10px;
+			background:#fff;		
+		}
+		.price1{
+			font-size: 14px;
+			color: #DB4453
+		}
+		.price2{
+			padding-left:5px;
+			font-size: 14px;
+			color:#444;
+			text-decoration:line-through;
+		}
+		.salenum{
+			color:#444;
+			font-size: 12px
+		}
+		.area_name{
+			color:#333;
+		}
+		.ishave{
+			color:#ED5564;
+			padding-left:5px;
+		}
+		.hair{
+			display:block;
+			font-size: 12px;
+			color:#888;
+			padding-top: 10px;
+			padding-left:30px;
+		}
+	}
+	.goods-detail-item{
+		
+		border-bottom: 1px solid #eee;
+		color:#888;
+		font-size: 14px;
+	}
+
+	.select{
+		color:#888;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.goods-detail-comment{
+		.evaltitle{
+			line-height: 40px;
+			color:#888;
+			font-size: 14px;
+			.right{
+				font-size: 12px;
+
+			}
+		}
+		.eval{
+			border-top:1px solid #eee;
+			>div{
+				line-height: 30px;
+				font-size: 12px;
+				color:#888;
+			}
+			.left{
+				color:#ED5564
+			}
+			.eval-content{
+				color:#444;
+			}
+		}
+
+	}
+	.goods-detail-comment{
+		margin-bottom: 2rem;
+	}
+	.detail_footer{
+		background:#fff;
+		width:100%;
+		position:fixed;
+		left:0;
+		bottom:53px;
+		.footer{
+			width:100%;
+			display:flex;
+			background:#FFF;
+			//margin-top:10px;
+			line-height: 1rem;
+			>div{
+				text-align: center;
+			}
+			.gobuy{
+				width:30%;
+				background:#ED5564;
+				color:#fff;
+			}
+			.add{
+				width:30%;
+				color:#fff;
+				background:#FB6E52
+			}
+			.chat,.cart{
+				width:20%;
+				font-size: 14px;
+				border-top:1px solid #eee;
+				box-sizing:border-box;
+			}
+			.cart{
+				border-left:1px solid #eee
+			}
+		}
+		
+	}
+	.cart_count{
+		color:#ED5564;
+		display:inline-block;
+		padding:0 5px;
+	}
+
+	.add_info{
+		border-top:1px solid #eee;
+		padding:10px;
+		img{
+			width:1.2rem;
+		}
+		.add_top{
+			border-bottom:1px solid #eee;
+			padding-bottom:10px;
+			>div{
+				width:80%;
+				line-height: 20px;
+				text-align: left;
+				padding-left:10px;
+				box-sizing:border-box
+			}
+			p{
+				line-height: 20px;
+				margin: 0;
+				text-align: left
+
+			}
+			.goods_price{
+				color:#DB4453;
+				font-size: 12px;
+			}
+			.goods_storage{
+				color:#888;
+				font-size: 12px;
+			}
+			.goods_name{
+				font-size: 14px;
+				color:#444
+			}
+
+		}
+	}
+	.buycount{
+		padding:10px;
+		box-sizing:border-box;
+		position:relative;
+		>span{
+			color:#888;
+			font-size: 14px;
+		}
+		>div{
+			border:1px solid #eee;
+			line-height: 30px;
+			>div{
+				border:0;
+				width:30px;
+				text-align:center;
+				line-height: 30px;
+			}
+			span{
+				display:inline-block;
+				height:30px;
+				width:30px;
+				text-align:center;
+				color:#888;
+			}
+			.inpadd{
+				border-left:1px solid #eee
+			}
+			.inpjian{
+				border-right:1px solid #eee
+			}
+			
+		}
+
+
+	}
+
+	.close{
+			z-index: 999;
+			position:absolute;
+			right:10px;
+			top:-5px;
+			text-align:center;
+			line-height: 25px;
+			background:#ccc;
+			display:block;
+			width:25px;
+			height:25px;
+			color:#444;
+			border-radius:50%
+		}
+}

@@ -1,0 +1,19 @@
+#islogin{
+	margin-top:15px;
+	background:#fff;
+	.content{
+		display:flex;
+		a{
+			width:25%;
+			margin:10px 0;
+			text-align: center;
+			font-size: 14px;
+			border-right:1px solid #eee;
+			box-sizing:border-box;
+			color:#555;
+		}
+		a:last-child{
+			border:0
+		}
+	}
+}

@@ -1,0 +1,166 @@
+#member{
+	margin-bottom:1.2rem;
+	.member_header{
+		z-index: 2;
+		position:fixed;
+		left:0;
+		top:0;
+		width:100%;
+		display: flex;
+		padding:0 10px;
+		line-height: 40px;
+		background: #fff;
+		>div{
+			font-size: 18px;
+			width: 80%;
+			text-align: center;
+		}
+		span{
+			display:inline-block;
+			width:10%;
+		}
+	}
+	.member_content{
+		position:relative;
+		.member_top{
+			height:5rem;
+			background-color:#ED5564;
+			animation: changeBg 10s infinite;
+			background-image:url(../../assets/member_top_bg.png)
+		}
+		.user{
+			text-align: center;
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform: translateX(-50%) translateY(-50%);
+			img{
+				width:1.6rem;
+				border-radius:50%;
+
+			}
+			p{
+				color:#fff;
+				font-size: 16px;
+				margin-top: 5px;
+			}
+			.unlogin{
+				>div{
+					margin:0 auto;
+					background-color:rgba(0,0,0,0.5);
+					border-radius:50%;
+					width:1.6rem;
+					height:1.6rem;
+					text-align: center;
+					padding-top:10px;
+					box-sizing:border-box;
+					img{
+						width:1.2rem;
+						border-radius:50%;
+
+					}
+				}
+			}
+		}
+	}
+
+
+	
+	
+
+	@keyframes changeBg{
+		0% {
+		    background-color: #ED5564;
+		}
+		10% {
+		    background-color: #FB6E52;
+		}
+		20% {
+		    background-color: #FFCE55;
+		}
+		30% {
+		    background-color: #A0D468;
+		}
+		40% {
+		    background-color: #48CFAE;
+		}
+		50% {
+		    background-color: #4FC0E8;
+		}
+		60% {
+		    background-color: #5D9CEC;
+		}
+		70% {
+		    background-color: #AC92ED;
+		}
+		80% {
+		    background-color: #EC87BF;
+		}
+
+		90% {
+		    background-color: #ED5564;
+		}
+	}
+
+	.member-collect{
+		display:flex;
+		background:rgba(0,0,0,0.1);
+		line-height: 40px;
+		color:#fff;
+		font-size:14px;
+		position:absolute;
+		bottom: 0;
+		left:0;
+		width:100%;
+		span{
+			display:block;
+			width:33.3%;
+			text-align: center;
+		}
+	}
+	.member_content_center{
+		>div{
+			margin-top: 10px;
+			background:#fff;
+			font-size: 14px;
+			color:#444;
+		}
+		.title{
+			margin-left: 10px;
+			padding:10px 15px 10px 0px;
+			border-bottom:1px solid #eee;
+		}
+		i{
+			color:#4FC0E8;
+			padding:5px;
+		}
+		.more{
+			color:#999;
+			font-size: 14px;
+			i{
+				color:#999;
+				font-size: 14px;
+			}
+		}
+		.caozuo{
+			display:flex;
+			flex-wrap: wrap;
+
+			span{
+				padding:10px 0;
+				display:flex;
+				flex-direction: column;
+				width:25%;
+				text-align: center;
+				
+				color:#999;
+				font-size:14px;
+				i{
+					color:#999;
+					font-size: 20px;
+				}
+			}
+		}
+	}
+	
+}
